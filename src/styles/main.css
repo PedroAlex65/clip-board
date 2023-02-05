@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../img/Bitmap.svg") no-repeat;
+  background-size: contain;
+}
+
+header {
+  margin-top: 123px;
+  width: 375px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header h1 {
+  color: #4C545C;
+  width: 311px;
+  text-align: center;
+  margin-top: 64px;
+}
+header p {
+  margin-top: 16px;
+  color: #9EABB2;
+  text-align: center;
+}
+header button {
+  color: #fff;
+  width: 311px;
+  height: 56px;
+  border-radius: 28px;
+  border: none;
+  margin: 24px;
+}
+header .IOS {
+  margin-top: 48px;
+  background-color: #26bba4;
+  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+header .MAC {
+  background-color: #6174ff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}/*# sourceMappingURL=main.css.map */

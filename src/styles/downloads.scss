@@ -1,0 +1,42 @@
+.area-download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h1 {
+        margin-top: 170px;
+        width: 311px;
+        font-size: 28px;
+        text-align: center;
+        color: #4C545C;
+    }
+
+    p{
+        width: 311px;
+        margin-top: 16px;
+        font-size: 16px;
+        text-align: center;
+        color: #9EABB2;  
+    }
+
+    button {
+        color: #fff;
+        margin-top:46px ;
+        width: 311px;
+        height: 56px;
+        border-radius: 28px;
+        border: none;
+        margin: 14px;
+    }
+
+    .IOS {
+        margin-top: 48px;
+        background-color: #26bba4;
+        box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    }
+
+    .MAC {
+        background-color: #6174ff;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    }
+}

@@ -1,0 +1,25 @@
+.section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section-two h1 {
+  width: 311px;
+  margin-top: 186px;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  color: #4C545C;
+}
+.section-two p {
+  width: 310px;
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #9EABB2;
+}
+.section-two img {
+  margin-top: 64px;
+}/*# sourceMappingURL=section-two.css.map */

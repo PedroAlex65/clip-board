@@ -1,0 +1,28 @@
+.section-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section-one h1 {
+  margin-top: 160px;
+  font-size: 28px;
+  width: 251px;
+  color: #4C545C;
+  text-align: center;
+}
+.section-one h2 {
+  margin-top: 56px;
+  font-size: 24px;
+  color: #4C545C;
+  text-align: center;
+}
+.section-one p {
+  margin: 16px;
+  font-size: 16px;
+  color: #9EABB2;
+  text-align: center;
+}
+.section-one img {
+  margin-top: 65px;
+}/*# sourceMappingURL=section-one.css.map */
