@@ -27,4 +27,44 @@
   line-height: 30px;
   text-align: center;
   color: #4C545C;
+}
+@media (min-width: 1280px) {
+  .section-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section-three .grid {
+    gap: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .section-three .h1-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .section-three .h1-p p {
+    text-align: center;
+    width: 350px;
+  }
+  .section-three h1 {
+    font-size: 36px;
+    line-height: 35px;
+  }
+  .section-three img {
+    transform: translateX(170px);
+    margin-top: 90px;
+  }
+  .section-three p {
+    width: 350px;
+    margin-top: 11px;
+    font-size: 18px;
+  }
+  .section-three h2 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
 }/*# sourceMappingURL=section-three.css.map */
