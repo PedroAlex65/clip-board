@@ -1,28 +1,51 @@
 .section-two {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 
     h1 {
-        width: 311px;
+        width: 730px;
         margin-top: 186px;
         font-size: 28px;
         line-height: 35px;
         text-align: center;
         color: #4C545C;
     }
-    p{
-        width: 310px;
+
+    p {
+        width: 410px;
         margin-top: 16px;
         font-size: 16px;
         line-height: 26px;
         text-align: center;
-        color: #9EABB2;  
-    }
-    img{
-        margin-top:64px ;
+        color: #9EABB2;
     }
 
+    img {
+        margin-top: 64px;
+    }
+
+
+    @media (min-width:1280px) {
+
+        h1 {
+            width: 730px;
+            margin-top: 150px;
+            font-size: 36px;
+        }
+
+        p {
+            width: 510px;
+            margin-top: 16px;
+            font-size: 16px;
+        }
+
+        img {
+            width: 812px;
+            height: 475px;
+            margin-top: 64px;
+        }
+    }
 }

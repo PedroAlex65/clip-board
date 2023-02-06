@@ -44,4 +44,44 @@ header .IOS {
 header .MAC {
   background-color: #6174ff;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+@media (min-width: 1280px) {
+  header {
+    margin-top: 53px;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  header h1 {
+    Width: 730px;
+    font-size: 46px;
+    line-height: 58px;
+    color: #4C545C;
+  }
+  header p {
+    width: 630px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #9EABB2;
+  }
+  header button {
+    color: #fff;
+    width: 227px;
+    height: 56px;
+    border-radius: 28px;
+    border: none;
+    margin: 24px;
+  }
+  header .IOS {
+    margin-top: 48px;
+    background-color: #26bba4;
+    box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  }
+  header .MAC {
+    background-color: #6174ff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -5,7 +5,7 @@
   flex-direction: column;
 }
 .section-two h1 {
-  width: 311px;
+  width: 730px;
   margin-top: 186px;
   font-size: 28px;
   line-height: 35px;
@@ -13,7 +13,7 @@
   color: #4C545C;
 }
 .section-two p {
-  width: 310px;
+  width: 410px;
   margin-top: 16px;
   font-size: 16px;
   line-height: 26px;
@@ -22,4 +22,21 @@
 }
 .section-two img {
   margin-top: 64px;
+}
+@media (min-width: 1280px) {
+  .section-two h1 {
+    width: 730px;
+    margin-top: 150px;
+    font-size: 36px;
+  }
+  .section-two p {
+    width: 510px;
+    margin-top: 16px;
+    font-size: 16px;
+  }
+  .section-two img {
+    width: 812px;
+    height: 475px;
+    margin-top: 64px;
+  }
 }/*# sourceMappingURL=section-two.css.map */
