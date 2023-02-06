@@ -35,4 +35,39 @@
 .area-download .MAC {
   background-color: #6174ff;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+@media (min-width: 1280px) {
+  .area-download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .area-download h1 {
+    margin-top: 170px;
+    width: auto;
+    font-size: 36px;
+  }
+  .area-download p {
+    width: 600px;
+    margin-top: 16px;
+    font-size: 18px;
+  }
+  .area-download button {
+    margin-top: 46px;
+    width: 227px;
+    height: 56px;
+    border-radius: 28px;
+    border: none;
+    margin: 14px;
+  }
+  .area-download .IOS {
+    margin-top: 48px;
+    background-color: #26bba4;
+    box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  }
+  .area-download .MAC {
+    background-color: #6174ff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  }
 }/*# sourceMappingURL=downloads.css.map */
