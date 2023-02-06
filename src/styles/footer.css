@@ -22,4 +22,40 @@ footer .social-networks {
 }
 footer .social-networks img {
   margin: 30px;
+}
+@media (min-width: 1280px) {
+  footer {
+    margin-top: 170px;
+    width: 100vw;
+    gap: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  footer .grid-footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  footer .logo {
+    position: relative;
+    bottom: 20px;
+    margin-top: 52px;
+    margin-left: 65px;
+  }
+  footer a {
+    transform: translateY(20px);
+    font-size: 18px;
+    text-align: initial;
+    margin-top: 0;
+    text-decoration: none;
+  }
+  footer .social-networks {
+    margin-top: 30px;
+  }
+  footer .social-networks img {
+    margin: 30px;
+  }
 }/*# sourceMappingURL=footer.css.map */
